@@ -1,0 +1,9 @@
+ .footer{
+  font-family: "Poppins", sans-serif;
+  background-color: #8000ff;
+  color: white;
+  padding: 1rem 0;
+  height: auto;
+  margin-top: 50px;
+  text-align: center;
+}
