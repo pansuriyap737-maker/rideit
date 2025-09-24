@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.shareride-container{
+    margin-top: 40px;
+}
+
+.shareride-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#addtrip-form {
+    width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+#sharepickup{
+    width: 100%;
+    height: 45px;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+}
+
+#sharedrop{
+    width: 100%;
+    height: 45px;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+}
+
+#addtrip-btn{
+    padding: 5px;
+    font-size: 16px;
+    width: 30%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#addtrip-btn:hover{
+    transform: scale(105%);
+    background-color: #8000ff;
+    color: white;
+}
+
+#ride-share-heading{
+    margin-bottom: 30px;
+}
+
+
+
+
+
