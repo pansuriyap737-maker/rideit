@@ -1,0 +1,95 @@
+.admin-profile-container {
+    padding: 40px 20px;
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 26px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.toggle-buttons {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.toggle-buttons button {
+    margin: 0 10px;
+    padding: 10px 25px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-buttons button:hover,
+.toggle-buttons button.active {
+    background-color: #0056b3;
+}
+
+.form-container {
+    display: none;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container.active {
+    display: block;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    flex: 1;
+    margin-bottom: 15px;
+    min-width: 200px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.admin-profile-update {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.update-admin-profile-info {
+    padding: 10px 25px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.update-admin-profile-info:hover {
+    background-color: #0056b3;
+}
+
+.form-group.center {
+    text-align: center;
+}

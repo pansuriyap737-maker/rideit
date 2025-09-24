@@ -1,0 +1,64 @@
+.user-payments-container {
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.title {
+  color: #007bff;
+}
+
+.search-form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-input {
+  padding: 8px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.payments-table {
+  width: 80%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+}
+
+.payments-table th,
+.payments-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.payments-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.no-results {
+  text-align: center;
+  color: #999;
+  padding: 20px;
+}
